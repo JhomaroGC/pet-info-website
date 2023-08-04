@@ -168,10 +168,11 @@ data = [
     }
 ]
 
+company_name = "Punto Pet"
 
 @app.route("/")
 def hello_world():
-    return render_template('index.html', data=data)
+    return render_template('index.html', data=data, company =company_name )
 
 @app.route("/api/pets")
 def pet_list():
