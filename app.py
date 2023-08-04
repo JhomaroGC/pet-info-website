@@ -168,7 +168,7 @@ data = [
     }
 ]
 
-company_name = "Punto Pet"
+company_name = "Estoy desde Replit"
 
 @app.route("/")
 def hello_world():
